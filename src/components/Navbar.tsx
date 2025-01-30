@@ -42,12 +42,20 @@ export default function Navbar() {
             isOpen ? "translate-y-0" : "hidden"
           }`}
         >
-          <div className="pb-10 px-8 pt-5">
-            <ul className="flex flex-col justify-between gap-6 pb-10 text-white text-lg">
-              <li className="cursor-pointer border-b-1 pb-5">Home</li>
-              <li className="cursor-pointer border-b-1 pb-5">About</li>
-              <li className="cursor-pointer border-b-1 pb-5">Services</li>
-              <li className="cursor-pointer border-b-1 pb-5">Contact</li>
+          <div className="px-8 pt-5">
+            <ul className="flex flex-col justify-between gap-6 pb-5 text-white text-lg">
+              <li className="cursor-pointer border-b-1 border-[#152C5B] pb-5">
+                Home
+              </li>
+              <li className="cursor-pointer border-b-1 border-[#152C5B] pb-5">
+                About
+              </li>
+              <li className="cursor-pointer border-b-1 border-[#152C5B] pb-5">
+                Services
+              </li>
+              <li className="cursor-pointer border-b-1 border-[#152C5B] pb-5">
+                Contact
+              </li>
             </ul>
           </div>
         </nav>
