@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="mt-30 px-6 py-10 bg-[#152C5B]">
       <div>
         <IconBrand src={footerImage} alt="footer-image" width={170} />
-        <p className="text-white/80 text-lg tracking-wider mt-3 mb-8">
+        <p className="text-white/80 text-md tracking-wider mt-3 mb-8">
           Personal Website cara untuk memperkenalkan diri, khususnya pengetahuan
           dan achievement yang telah didapatkan
         </p>

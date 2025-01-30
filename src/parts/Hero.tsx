@@ -15,9 +15,7 @@ export default function Hero() {
     <>
       <div className="pt-40">
         <div>
-          <span className="py-1 px-4 ring-1 ring-black/30 rounded-lg text-white/75">
-            Hi, There
-          </span>
+          <span className="text-white/75">Hi, There</span>
           <h1 className="text-5xl font-bold mt-3 text-white">
             Front End <br />{" "}
             <span className="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">

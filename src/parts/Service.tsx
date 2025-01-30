@@ -19,7 +19,7 @@ export default function Service() {
 
   return (
     <div className="pt-30">
-      <div className="text-center text-white/80 pb-20">
+      <div className=" text-white/80 pb-10">
         <h1 className="text-3xl font-bold ">Informasi Saya</h1>
         <p className="mt-5">
           Hal hal penting dalam technologi yang saya gunakan, project yang saya
@@ -28,7 +28,7 @@ export default function Service() {
       </div>
       <div className="flex justify-between text-white/80 backdrop-blur-sm bg-black/20 py-2 px-2 rounded-2xl mb-10">
         <Button
-          className="flex flex-col items-center gap-2 hover:bg-purple-400 py-2 px-3 rounded-xl"
+          className={`flex flex-col items-center gap-2 hover:bg-purple-400 py-2 px-3 rounded-xl`}
           onClick={() => handleService(<TechStack />)}
         >
           <RiStackLine size={20} />

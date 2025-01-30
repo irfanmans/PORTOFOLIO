@@ -5,8 +5,11 @@ export default function About() {
   return (
     <>
       <div className="pt-30">
-        <div className="text-center text-white/80 pb-20 leading-9">
+        <div className="text-white/80 pb-20">
           <h1 className="text-3xl font-bold">Tentang Saya</h1>
+          <p className="mt-5">
+            Hal hal penting untuk memperkenalkan diri saya dengan menarik
+          </p>
         </div>
         <div>
           <div>

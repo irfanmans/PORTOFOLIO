@@ -27,25 +27,27 @@ export default function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 w-full z-50 transition-all duration-500 ${
-        scroll ? "bg-blue-400 shadow-2xl scale-105" : "bg-transparent"
+        scroll
+          ? "bg-blue-400 drop-shadow-lg scale-105 py-3"
+          : "bg-blue-400 py-3"
       }`}
     >
-      <div className="flex justify-between items-center py-4 px-6">
+      <div className="flex justify-between items-center px-6">
         <div>
-          <IconBrand alt="icon-nav" width={130} src={iconBrand} />
+          <IconBrand alt="icon-nav" width={120} src={iconBrand} />
         </div>
 
         <nav
-          className={`absolute top-25 right-5 rounded-lg h-96 w-[90%] backdrop-blur-sm bg-blue-400 transform transition-transform duration-300  ${
-            isOpen ? "translate-y-0 " : "hidden"
+          className={`absolute top-17 right-0 h-96 w-full bg-blue-400 transform transition-transform duration-300 rounded-b-2xl ${
+            isOpen ? "translate-y-0" : "hidden"
           }`}
         >
-          <div className="p-10">
-            <ul className="flex flex-col justify-between gap-15 text-white text-lg">
-              <li className="cursor-pointer">Home</li>
-              <li className="cursor-pointer">About</li>
-              <li className="cursor-pointer">Services</li>
-              <li className="cursor-pointer">Contact</li>
+          <div className="pb-10 px-8 pt-5">
+            <ul className="flex flex-col justify-between gap-6 pb-10 text-white text-lg">
+              <li className="cursor-pointer border-b-1 pb-5">Home</li>
+              <li className="cursor-pointer border-b-1 pb-5">About</li>
+              <li className="cursor-pointer border-b-1 pb-5">Services</li>
+              <li className="cursor-pointer border-b-1 pb-5">Contact</li>
             </ul>
           </div>
         </nav>
