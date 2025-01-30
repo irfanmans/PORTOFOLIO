@@ -6,7 +6,7 @@ import Card from "../ui/Card";
 import { useState } from "react";
 import TechStack from "../components/TechStack";
 import Projects from "../components/Projects";
-import Certificate from "../components/certificate";
+import Certificate from "../components/Certificate";
 
 export default function Service() {
   const [selectService, setSelectService] = useState<React.ReactNode>(
