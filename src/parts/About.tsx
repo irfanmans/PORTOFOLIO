@@ -7,7 +7,7 @@ export default function About() {
       <div className="pt-30">
         <div className="text-white/80 pb-20">
           <h1 className="text-3xl font-bold">Tentang Saya</h1>
-          <p className="mt-5">
+          <p className="mt-5 text-lg">
             Hal hal penting untuk memperkenalkan diri saya dengan menarik
           </p>
         </div>
@@ -17,7 +17,7 @@ export default function About() {
               Hello, Saya
             </h1>
             <h1 className="text-3xl font-bold text-white">Irfan Mulya</h1>
-            <p className="mt-5 text-lg text-white/80 tracking-wider">
+            <p className="mt-5 text-lg text-white/80">
               Saya seorang siswa Teknik Informatika yang tertarik dalam
               pengembangan Front-End. Saya berfokus pada menciptakan pengalaman
               digital yang menarik dan selalu berusaha memberikan solusi terbaik
