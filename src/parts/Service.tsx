@@ -29,7 +29,6 @@ export default function Service() {
         </p>
       </div>
 
-      {/* Tab Navigation */}
       <div className="flex justify-between text-white/80 backdrop-blur-sm bg-black/20 py-2 px-2 rounded-2xl mb-10">
         <Button
           className={`flex flex-col items-center gap-2 py-2 px-3 rounded-xl transition-all ${

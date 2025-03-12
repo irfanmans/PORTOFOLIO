@@ -7,8 +7,8 @@ interface StackGroupProps {
 export default function StackGroup({ children }: StackGroupProps) {
   return (
     <>
-      <div className="py-2 px-5 backdrop-blur-sm bg-black/30 rounded-2xl">
-        <p className="text-white/75">{children}</p>
+      <div className="py-2 px-4 border text-center border-neutral-200 rounded-2xl">
+        <p className="text-gray-600">{children}</p>
       </div>
     </>
   );

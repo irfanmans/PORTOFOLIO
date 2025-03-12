@@ -6,7 +6,7 @@ import IconSosialMedia from "../ui/IconSosialMedia";
 
 export default function Footer() {
   return (
-    <footer className="mt-30 px-6 py-10 bg-[#152C5B]">
+    <footer className="mt-32 px-6 py-10 bg-[#152C5B]">
       <div>
         <IconBrand src={footerImage} alt="footer-image" width={170} />
         <p className="text-white/80 text-md mt-3 mb-8">

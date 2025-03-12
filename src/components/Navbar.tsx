@@ -26,10 +26,8 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 w-full z-50 transition-all duration-500 ${
-        scroll
-          ? "bg-blue-400 drop-shadow-lg scale-105 py-3"
-          : "bg-blue-400 py-3"
+      className={`fixed top-0 left-0 right-0 w-full h-20 z-50 transition-all duration-500 ${
+        scroll ? "bg-white shadow-lg scale-105 py-5" : "py-6"
       }`}
     >
       <div className="flex justify-between items-center px-6">
@@ -38,22 +36,22 @@ export default function Navbar() {
         </div>
 
         <nav
-          className={`absolute top-17 right-0 h-96 w-full bg-blue-400 transform transition-transform duration-300 rounded-b-2xl ${
+          className={`absolute top-24 right-5 border border-neutral-200 h-80 w-[90%] bg-white shadow-lg transform transition-transform duration-300 rounded-lg ${
             isOpen ? "translate-y-0" : "hidden"
           }`}
         >
-          <div className="px-8 pt-5">
-            <ul className="flex flex-col justify-between gap-6 pb-5 text-white text-lg">
-              <li className="cursor-pointer border-b-1 border-[#152C5B] pb-5">
+          <div className="px-8 py-7">
+            <ul className="flex flex-col justify-between gap-6 text-neutral-600 font-semibold font-poppins text-lg">
+              <li className="cursor-pointer pb-4 border-b border-neutral-200">
                 Home
               </li>
-              <li className="cursor-pointer border-b-1 border-[#152C5B] pb-5">
+              <li className="cursor-pointer pb-4 border-b border-neutral-200">
                 About
               </li>
-              <li className="cursor-pointer border-b-1 border-[#152C5B] pb-5">
+              <li className="cursor-pointer pb-4 border-b border-neutral-200">
                 Services
               </li>
-              <li className="cursor-pointer border-b-1 border-[#152C5B] pb-5">
+              <li className="cursor-pointer pb-4 border-b border-neutral-200">
                 Contact
               </li>
             </ul>
@@ -64,13 +62,13 @@ export default function Navbar() {
           {isOpen ? (
             <IoClose
               size={35}
-              className="text-white transition-all duration-300"
+              className="text-black/50 transition-all duration-300"
               onClick={() => setIsOpen(false)}
             />
           ) : (
             <IoIosMenu
               size={35}
-              className="text-white transition-all duration-300"
+              className="text-black/50 transition-all duration-300"
               onClick={() => setIsOpen(true)}
             />
           )}
