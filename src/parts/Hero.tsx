@@ -26,7 +26,7 @@ export default function Hero() {
         <p className="mt-3 text-xl font-bold text-center text-gray-700">
           Present {typeEffect}
         </p>
-        <p className="text-gray-700 text-xl text-center font-medium mt-2">
+        <p className="text-gray-700 text-lg text-center font-medium mt-2">
           Menciptakan Website Yang Inovatif, Fungsional, dan User-Friendly Untuk
           Solusi Digital
         </p>

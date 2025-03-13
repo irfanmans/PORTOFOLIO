@@ -20,16 +20,16 @@ export default function Service() {
   };
 
   return (
-    <div className="pt-30">
-      <div className="text-white/80 pb-10">
-        <h1 className="text-3xl font-bold">Informasi Saya</h1>
-        <p className="mt-5 text-lg">
+    <div className="mt-20">
+      <div className="text-gray-700 text-center mb-10">
+        <h1 className="text-3xl font-bold ">Informasi Saya</h1>
+        <p className="mt-5 text-lg text-justify tracking-wide">
           Hal-hal penting dalam teknologi yang saya gunakan, proyek yang saya
           kerjakan, dan sertifikat yang telah saya dapatkan.
         </p>
       </div>
 
-      <div className="flex justify-between text-white/80 backdrop-blur-sm bg-black/20 py-2 px-2 rounded-2xl mb-10">
+      <div className="grid grid-cols-3 gap-2 text-white backdrop-blur-sm bg-black/20 py-2 px-2 rounded-2xl mb-10">
         <Button
           className={`flex flex-col items-center gap-2 py-2 px-3 rounded-xl transition-all ${
             active === "TechStack" ? "bg-purple-600" : "hover:bg-purple-600"
@@ -61,7 +61,6 @@ export default function Service() {
         </Button>
       </div>
 
-      {/* Content */}
       <Card>{selectService}</Card>
     </div>
   );

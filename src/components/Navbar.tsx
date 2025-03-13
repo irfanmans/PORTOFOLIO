@@ -26,13 +26,13 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 w-full h-20 z-50 transition-all duration-500 ${
-        scroll ? "bg-white shadow-lg scale-105 py-5" : "py-6"
+      className={`fixed top-0 left-0 right-0 w-full h-[70px] z-50 transition-all duration-500 ${
+        scroll ? "bg-white shadow-lg scale-105 py-4" : "py-3"
       }`}
     >
       <div className="flex justify-between items-center px-6">
         <div>
-          <IconBrand alt="icon-nav" width={120} src={iconBrand} />
+          <IconBrand alt="icon-nav" width={115} src={iconBrand} />
         </div>
 
         <nav

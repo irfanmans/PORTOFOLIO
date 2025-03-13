@@ -4,13 +4,13 @@ import profileImage from "../assets/images/profile-img.png";
 export default function About() {
   return (
     <>
-      <div className="pt-20">
-        <div className="text-start">
+      <div className="pt-20 text-center">
+        <div>
           <h1 className="text-3xl font-bold text-gray-500">Tentang Saya</h1>
         </div>
         <div>
           <div>
-            <p className="mt-5 text-lg text-gray-500">
+            <p className="mt-5 text-lg tracking-wide text-justify text-gray-500">
               Saya <span>Irfan Mulya</span> seorang siswa Teknik Informatika
               yang tertarik dalam pengembangan Front-End. Saya berfokus pada
               menciptakan pengalaman digital yang menarik dan selalu berusaha

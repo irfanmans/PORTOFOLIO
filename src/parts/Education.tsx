@@ -1,6 +1,7 @@
 import PartOfEducation from "../components/PartOfEducation";
 import Button from "../ui/Button";
 import Dot from "../ui/Dot";
+import { IoSchool } from "react-icons/io5";
 
 export default function Education() {
   return (
@@ -20,8 +21,9 @@ export default function Education() {
             <div className="absolute left-[-15px]">
               <Dot />
             </div>
-            <div className="ml-5 border border-neutral-300 p-2 rounded-lg">
-              <h1 className="font-bold text-lg text-black/80">
+            <div className="ml-5 border border-neutral-300 p-5 rounded-lg">
+              <h1 className="font-bold text-md text-black/80 flex items-center gap-2">
+                <IoSchool />
                 SD Negeri 064037 Medan
               </h1>
               <p className="text-gray-500">
@@ -35,8 +37,9 @@ export default function Education() {
             <div className="absolute left-[-15px]">
               <Dot />
             </div>
-            <div className="ml-5 border border-neutral-300 p-2 rounded-lg">
-              <h1 className="font-bold text-lg text-black/80">
+            <div className="ml-5 border border-neutral-300 p-5 rounded-lg">
+              <h1 className="font-bold text-md text-black/80 flex items-center gap-2">
+                <IoSchool />
                 SMP Negeri 17 Medan
               </h1>
               <p className="text-gray-500">
@@ -50,8 +53,9 @@ export default function Education() {
             <div className="absolute left-[-15px]">
               <Dot />
             </div>
-            <div className="ml-5 border border-neutral-300 p-2 rounded-lg">
-              <h1 className="font-bold text-lg text-black/80">
+            <div className="ml-5 border border-neutral-300 p-5 rounded-lg">
+              <h1 className="font-bold text-md text-black/80 flex items-center gap-2">
+                <IoSchool />
                 SMK Tritech Informatika Medan
               </h1>
               <p className="text-gray-500">
@@ -65,8 +69,9 @@ export default function Education() {
             <div className="absolute left-[-15px]">
               <Dot />
             </div>
-            <div className="ml-5 border border-neutral-300 p-2 rounded-lg">
-              <h1 className="font-bold text-lg text-black/80">
+            <div className="ml-5 border border-neutral-300 p-5 rounded-lg">
+              <h1 className="font-bold text-md text-black/80 flex items-center gap-2">
+                <IoSchool />
                 Universitas Mikroskil Medan
               </h1>
               <p className="text-gray-500">
