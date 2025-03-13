@@ -22,8 +22,8 @@ export default function Service() {
   return (
     <div className="mt-20">
       <div className="text-gray-700 text-start mb-10">
-        <h1 className="text-3xl font-bold ">Informasi Saya</h1>
-        <p className="mt-5 text-lg tracking-wide">
+        <h1 className="text-2xl font-bold ">Informasi Saya</h1>
+        <p className="mt-5 tracking-wide">
           Hal-hal penting dalam teknologi yang saya gunakan, proyek yang saya
           kerjakan, dan sertifikat yang telah saya dapatkan.
         </p>

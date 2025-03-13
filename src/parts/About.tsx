@@ -6,11 +6,11 @@ export default function About() {
     <>
       <div className="pt-20 text-start">
         <div>
-          <h1 className="text-3xl font-bold text-gray-500">Tentang Saya</h1>
+          <h1 className="text-2xl font-bold text-gray-500">Tentang Saya</h1>
         </div>
         <div>
           <div>
-            <p className="mt-5 text-lg tracking-wide text-gray-500">
+            <p className="mt-5 tracking-wide text-gray-700">
               Saya <span>Irfan Mulya</span> seorang siswa Teknik Informatika
               yang tertarik dalam pengembangan Front-End. Saya berfokus pada
               menciptakan pengalaman digital yang menarik dan selalu berusaha
