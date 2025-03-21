@@ -21,7 +21,11 @@ export default function Education() {
             <div className="absolute left-[-15px]">
               <Dot />
             </div>
-            <div className="ml-5 border border-neutral-300 p-5 rounded-lg">
+            <div
+              className="ml-5 border border-neutral-300 p-5 rounded-lg"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <h1 className="font-bold text-md text-black/80 flex items-center gap-2">
                 <IoSchool />
                 SD Negeri 064037 Medan

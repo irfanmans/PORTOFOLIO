@@ -37,7 +37,7 @@ export default function Service() {
           onClick={() => handleService(<TechStack />, "TechStack")}
         >
           <RiStackLine size={20} />
-          <span className="text-md">Tech Stack</span>
+          <p className="text-[14px] tracking-wider">Tech Stack</p>
         </Button>
 
         <Button
@@ -47,7 +47,7 @@ export default function Service() {
           onClick={() => handleService(<Projects />, "Projects")}
         >
           <IoCodeSlashSharp size={20} />
-          <span className="text-md">Projects</span>
+          <span className="text-[14px] tracking-wider">Projects</span>
         </Button>
 
         <Button
@@ -57,7 +57,7 @@ export default function Service() {
           onClick={() => handleService(<Certificate />, "Certificates")}
         >
           <GiAchievement size={20} />
-          <span className="text-md">Certificates</span>
+          <span className="text-[14px] tracking-wider">Certificates</span>
         </Button>
       </div>
 

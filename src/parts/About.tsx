@@ -1,24 +1,20 @@
-import IconBrand from "../ui/IconBrand";
-import profileImage from "../assets/images/profile-img.png";
-
 export default function About() {
   return (
     <>
-      <div className="pt-20 text-start">
+      <div className="pt-20">
         <div>
-          <h1 className="text-2xl font-bold text-gray-500">Tentang Saya</h1>
+          <h1 className="text-2xl font-bold text-gray-500 text-center">
+            Tentang Saya
+          </h1>
         </div>
         <div>
           <div>
-            <p className="mt-5 tracking-wide text-gray-700">
+            <p className="mt-5 tracking-wider text-gray-700 text-justify">
               Saya <span>Irfan Mulya</span> seorang siswa Teknik Informatika
               yang tertarik dalam pengembangan Front-End. Saya berfokus pada
               menciptakan pengalaman digital yang menarik dan selalu berusaha
               memberikan solusi terbaik dalam setiap proyek
             </p>
-          </div>
-          <div className="flex justify-center rounded-full overflow-hidden">
-            <IconBrand src={profileImage} alt="Profile" />
           </div>
         </div>
       </div>
