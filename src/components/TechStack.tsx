@@ -8,7 +8,7 @@ export default function TechStack() {
         return (
           <li
             key={index}
-            className="w-38 h-38 flex flex-col justify-center pt-5 items-center bg-black/20 shadow-md rounded-2xl"
+            className="w-38 h-38 flex flex-col justify-center pt-5 items-center bg-black/25 shadow-md rounded-2xl"
           >
             <IconBrand
               src={element.logo}

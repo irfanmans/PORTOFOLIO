@@ -8,7 +8,7 @@ export default function Certificate() {
     <ul className="flex justify-between flex-wrap items-center gap-5">
       {certificate.map((element, index) => {
         return (
-          <li className="p-5 bg-black/30 rounded-lg">
+          <li className="p-5 bg-black/25 rounded-lg">
             <IconBrand
               key={index}
               src={element.logo}

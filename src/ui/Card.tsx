@@ -6,7 +6,7 @@ interface CardProps {
 
 export default function Card({ children }: CardProps) {
   return (
-    <div className="rounded-2xl backdrop-blur-sm bg-black/10 p-5">
+    <div className="rounded-2xl backdrop-blur-sm bg-black/10 p-3">
       {children}
     </div>
   );

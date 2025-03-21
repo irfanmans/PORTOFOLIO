@@ -52,7 +52,7 @@ export default function Service() {
 
         <Button
           className={`flex flex-col items-center gap-2 py-2 px-1.5 rounded-xl transition-all ${
-            active === "Certificates" ? "bg-purple-600" : "hover:bg-purple-600"
+            active === "Certificates" ? "bg-purple-600" : "hover:bg-purple-600 "
           }`}
           onClick={() => handleService(<Certificate />, "Certificates")}
         >
