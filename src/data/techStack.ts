@@ -7,6 +7,7 @@ import reactLogo from "../assets/svg/react.svg";
 import nextLogo from "../assets/svg/next-js.svg";
 import reduxLogo from "../assets/svg/redux.svg";
 import viteLogo from "../assets/svg/vitejs.svg";
+import flutter from "../assets/svg/flutter.svg";
 
 export const techStack = [
   { name: "HTML", logo: htmlLogo },
@@ -18,4 +19,5 @@ export const techStack = [
   { name: "Next", logo: nextLogo },
   { name: "Redux", logo: reduxLogo },
   { name: "Vite", logo: viteLogo },
+  { name: "Flutter", logo: flutter },
 ];

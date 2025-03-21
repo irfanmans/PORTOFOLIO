@@ -29,9 +29,9 @@ export default function Service() {
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-2 text-white backdrop-blur-sm bg-black/20 py-2 px-2 rounded-2xl mb-10">
+      <div className="grid grid-cols-3 gap-2 text-white backdrop-blur-sm bg-black/20 py-1 px-1 rounded-2xl mb-10">
         <Button
-          className={`flex flex-col items-center gap-2 py-2 px-3 rounded-xl transition-all ${
+          className={`flex flex-col items-center gap-2 py-2 px-1.5 rounded-xl transition-all ${
             active === "TechStack" ? "bg-purple-600" : "hover:bg-purple-600"
           }`}
           onClick={() => handleService(<TechStack />, "TechStack")}
@@ -41,7 +41,7 @@ export default function Service() {
         </Button>
 
         <Button
-          className={`flex flex-col items-center gap-2 py-2 px-3 rounded-xl transition-all ${
+          className={`flex flex-col items-center gap-2 py-2 px-1.5 rounded-xl transition-all ${
             active === "Projects" ? "bg-purple-600" : "hover:bg-purple-600"
           }`}
           onClick={() => handleService(<Projects />, "Projects")}
@@ -51,7 +51,7 @@ export default function Service() {
         </Button>
 
         <Button
-          className={`flex flex-col items-center gap-2 py-2 px-3 rounded-xl transition-all ${
+          className={`flex flex-col items-center gap-2 py-2 px-1.5 rounded-xl transition-all ${
             active === "Certificates" ? "bg-purple-600" : "hover:bg-purple-600"
           }`}
           onClick={() => handleService(<Certificate />, "Certificates")}
